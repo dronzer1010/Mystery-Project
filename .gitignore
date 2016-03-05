@@ -1,0 +1,9 @@
+#This file is to ignore important git pushes
+
+#Ignore node_modules directory
+
+node_modules/**
+
+#Ignore .Git folder from being pushed
+
+.git/**
