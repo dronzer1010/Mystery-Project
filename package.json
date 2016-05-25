@@ -4,6 +4,7 @@
   "description": "This is a Mystery Project",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,12 +23,22 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7"
+    "gulp-nodemon": "^2.0.6",
+    "gulp-util": "^3.0.7",
+    "nodemon": "^1.9.1"
   },
   "dependencies": {
+    "Faker": "^0.7.2",
     "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
     "express": "^4.13.4",
     "mongoose": "^4.4.6",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "oauth2orize": "^1.2.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2",
+    "winston": "^2.2.0"
   }
 }
