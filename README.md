@@ -4,3 +4,5 @@
 2.Caterer and other event manager can bid on projects.
 
 Initial page looks like this.
+
+![ohire](https://cloud.githubusercontent.com/assets/14025420/15535392/c1a9cdbe-228a-11e6-814e-402abc612e66.png)
